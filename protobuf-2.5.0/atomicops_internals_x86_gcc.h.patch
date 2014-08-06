@@ -1,0 +1,34 @@
+91a92
+> #if !defined(__MIC__)
+94a96
+> #endif
+101a104
+> #if !defined(__MIC__)
+104a108
+> #endif
+118c122,136
+< #if defined(__x86_64__)
+---
+> #if defined(__MIC__)
+> 
+> // Intel Phi has strict memory ordering, but we still insert an empty
+> // volatile asm statement to prevent the compiler from reordering code
+> // around the barrier
+> inline void MemoryBarrier() {
+>   __asm__ __volatile__("" : : : "memory");
+> }
+> 
+> inline void Acquire_Store(volatile Atomic32* ptr, Atomic32 value) {
+>   *ptr = value;
+>   MemoryBarrier();
+> }
+>  
+> #elif defined(__x86_64__)
+215a234
+> #if !defined(__MIC__)
+218a238
+> #endif
+272a293
+> #if !defined(__MIC__)
+275a297
+> #endif

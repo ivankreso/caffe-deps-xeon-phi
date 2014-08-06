@@ -1,0 +1,53 @@
+libglog_la-demangle.lo: src/demangle.cc \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/stdio.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/features.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/cdefs.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/gnu/stubs.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/types.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/typesizes.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/libio.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/_G_config.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdarg.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio_lim.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sys_errlist.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio.h src/demangle.h \
+ src/config.h
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/stdio.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/features.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/cdefs.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/gnu/stubs.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/types.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/typesizes.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/libio.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/_G_config.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdarg.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio_lim.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sys_errlist.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio.h:
+
+src/demangle.h:
+
+src/config.h:

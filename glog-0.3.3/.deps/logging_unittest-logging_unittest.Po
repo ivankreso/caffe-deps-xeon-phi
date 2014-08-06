@@ -1,0 +1,501 @@
+logging_unittest-logging_unittest.o: src/logging_unittest.cc \
+ src/config_for_unittests.h src/config.h src/utilities.h src/base/mutex.h \
+ ./src/config.h /usr/linux-k1om-4.7/linux-k1om/usr/include/pthread.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/features.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/cdefs.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/gnu/stubs.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/endian.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/endian.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/byteswap.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sched.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/types.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/typesizes.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/time.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sched.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/time.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/time.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/timex.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/xlocale.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/pthreadtypes.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/setjmp.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/assert.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/stdlib.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/waitflags.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/waitstatus.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/types.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/select.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/select.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sigset.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/time.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/sysmacros.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/alloca.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/string \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++config.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/os_defines.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/cpu_defines.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stringfwd.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/char_traits.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_algobase.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/functexcept.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/exception_defines.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/cpp_type_traits.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/type_traits.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/numeric_traits.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_pair.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/move.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/concept_check.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator_base_types.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator_base_funcs.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/debug/debug.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/postypes.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cwchar \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/stdio.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdarg.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cwchar \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/allocator.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++allocator.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/new_allocator.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/new \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/exception \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/localefwd.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++locale.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/clocale \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/locale.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/locale.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iosfwd \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cctype \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/ctype.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ostream_insert.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/cxxabi_forced.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_function.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/backward/binders.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/range_access.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_string.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/atomicity.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/gthr.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/gthr-default.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/unistd.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/posix_opt.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/environments.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/confname.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/getopt.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/atomic_word.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/initializer_list \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_string.tcc \
+ src/config.h src/glog/logging.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/errno.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/errno.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/linux/errno.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/asm/errno.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/asm-generic/errno.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/asm-generic/errno-base.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/string.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ostream \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ios \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ios_base.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_classes.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_classes.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/streambuf \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/streambuf.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_ios.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_facets.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cwctype \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wctype.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cctype \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/ctype_base.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/streambuf_iterator.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/ctype_inline.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_facets.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_ios.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ostream.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/sstream \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/istream \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/istream.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/sstream.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/vector \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_construct.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_uninitialized.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_vector.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_bvector.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/vector.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdint.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/stdint.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/inttypes.h ./src/glog/log_severity.h \
+ ./src/glog/vlog_is_on.h /usr/linux-k1om-4.7/linux-k1om/usr/include/fcntl.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/fcntl.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/uio.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stat.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/glob.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/sys/stat.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stat.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iomanip \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iostream \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/memory \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_tempbuf.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_raw_storage_iter.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/backward/auto_ptr.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/queue \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/deque \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_deque.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/deque.tcc \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_heap.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_queue.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/stdio.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/libio.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/_G_config.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h \
+ /usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdarg.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio_lim.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sys_errlist.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio.h \
+ src/base/commandlineflags.h ./src/config.h src/glog/raw_logging.h \
+ src/googletest.h /usr/linux-k1om-4.7/linux-k1om/usr/include/setjmp.h \
+ /usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sigset.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/map \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_tree.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_map.h \
+ /usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_multimap.h
+
+src/config_for_unittests.h:
+
+src/config.h:
+
+src/utilities.h:
+
+src/base/mutex.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/pthread.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/features.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/cdefs.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wordsize.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/gnu/stubs.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/endian.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/endian.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/byteswap.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sched.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/types.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/typesizes.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stddef.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/time.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sched.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/time.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/timex.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/xlocale.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/pthreadtypes.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/setjmp.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/assert.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/stdlib.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/waitflags.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/waitstatus.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/types.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/select.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/select.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sigset.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/sysmacros.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/alloca.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/string:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++config.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/os_defines.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/cpu_defines.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stringfwd.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/char_traits.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_algobase.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/functexcept.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/exception_defines.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/cpp_type_traits.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/type_traits.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/numeric_traits.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_pair.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/move.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/concept_check.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator_base_types.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator_base_funcs.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_iterator.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/debug/debug.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/postypes.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cwchar:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/wchar.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/stdio.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdarg.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/wchar.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/allocator.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++allocator.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/new_allocator.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/new:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/exception:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/localefwd.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/c++locale.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/clocale:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/locale.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/locale.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iosfwd:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cctype:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/ctype.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ostream_insert.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/cxxabi_forced.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_function.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/backward/binders.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/range_access.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_string.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ext/atomicity.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/gthr.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/gthr-default.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/unistd.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/posix_opt.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/environments.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/confname.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/getopt.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/atomic_word.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/initializer_list:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_string.tcc:
+
+src/glog/logging.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/errno.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/errno.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/linux/errno.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/asm/errno.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/asm-generic/errno.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/asm-generic/errno-base.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/string.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ostream:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/ios:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ios_base.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_classes.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_classes.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/streambuf:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/streambuf.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_ios.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_facets.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/cwctype:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/wctype.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/ctype_base.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/streambuf_iterator.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include-fixed/bits/ctype_inline.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/locale_facets.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/basic_ios.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/ostream.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/sstream:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/istream:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/istream.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/sstream.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/vector:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_construct.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_uninitialized.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_vector.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_bvector.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/vector.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../lib/gcc/x86_64-k1om-linux/4.7.0/include/stdint.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/stdint.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/inttypes.h:
+
+./src/glog/log_severity.h:
+
+./src/glog/vlog_is_on.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/fcntl.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/fcntl.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/uio.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stat.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/glob.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/sys/stat.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iomanip:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/iostream:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/memory:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_tempbuf.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_raw_storage_iter.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/backward/auto_ptr.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/queue:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/deque:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_deque.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/deque.tcc:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_heap.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_queue.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/libio.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/_G_config.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio_lim.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/sys_errlist.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/bits/stdio.h:
+
+src/base/commandlineflags.h:
+
+src/glog/raw_logging.h:
+
+src/googletest.h:
+
+/usr/linux-k1om-4.7/linux-k1om/usr/include/setjmp.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/map:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_tree.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_map.h:
+
+/usr/linux-k1om-4.7/linux-k1om/../x86_64-k1om-linux/include/c++/4.7.0/bits/stl_multimap.h:

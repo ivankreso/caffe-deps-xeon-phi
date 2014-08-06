@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/mnt/ssd/kivan/xeon_phi/libs/opencv
+exec_prefix=${prefix}
+libdir=
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 2.4.9
+Libs:  ${exec_prefix}/lib/libopencv_core.so ${exec_prefix}/lib/libopencv_highgui.so ${exec_prefix}/lib/libopencv_imgproc.so
+Cflags: -I${includedir_old} -I${includedir_new}
