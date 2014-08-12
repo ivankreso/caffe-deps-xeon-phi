@@ -22,7 +22,6 @@ Glog:
 
 HDF5:
 * ./configure CC=icc CXX=icpc FC=ifort CPP="icc -E" CXXCPP="icpc -E" CXXFLAGS=-mmic CFLAGS=-mmic FCFLAGS=-mmic --prefix=/mnt/ssd/kivan/xeon_phi/caffe/libs/hdf5/ --host=x86_64-unknown-linux-gnu
-http://linux4hippos.blogspot.com/2013/05/cross-compile-hdf5-for-intel-xeon-phi.html
 ----
 
 OpenCV:
