@@ -1,4 +1,4 @@
-prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build_host
+prefix=/usr/local
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
