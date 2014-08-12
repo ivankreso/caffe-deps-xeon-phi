@@ -4,7 +4,7 @@ caffe-dependencies
 ==================
 
 General cross-compile with autotools:
-* ```./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux```
+* ./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux
 ----
 
 Protobuf:
@@ -13,7 +13,7 @@ Protobuf:
 * make -j8
 * sudo make install
 * 2. cross-compile for Xeon Phi:
-* ```./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc```
+* ./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc
 ----
 
 Glog:
@@ -22,7 +22,7 @@ Glog:
 
 HDF5:
 * ./configure CC=icc CXX=icpc FC=ifort CPP="icc -E" CXXCPP="icpc -E" CXXFLAGS=-mmic CFLAGS=-mmic FCFLAGS=-mmic --prefix=/mnt/ssd/kivan/xeon_phi/caffe/libs/hdf5/ --host=x86_64-unknown-linux-gnu
-* http://linux4hippos.blogspot.com/2013/05/cross-compile-hdf5-for-intel-xeon-phi.html
+http://linux4hippos.blogspot.com/2013/05/cross-compile-hdf5-for-intel-xeon-phi.html
 ----
 
 OpenCV:
