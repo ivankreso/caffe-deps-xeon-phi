@@ -4,6 +4,8 @@ caffe-dependencies
 ==================
 
 General cross-compile with autotools:
+* ./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux
+
 ```./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux```
 ----
 
