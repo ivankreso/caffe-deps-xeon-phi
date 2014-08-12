@@ -4,7 +4,7 @@ caffe-dependencies
 ==================
 
 General cross-compile with autotools:
-* <pre>./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux</pre>
+* ```./configure CC=icc CXX=icpc LD=icc CXXLD=icpc CFLAGS=-mmic CXXFLAGS=-mmic --build=x86_64-unknown-linux-gnu --host=x86_64-k1om-linux```
 ----
 
 Protobuf:
@@ -13,7 +13,7 @@ Protobuf:
 * make -j8
 * sudo make install
 * 2. cross-compile for Xeon Phi:
-* <pre>./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc</pre>
+* ```./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc```
 ----
 
 Glog:
