@@ -9,11 +9,15 @@ General cross-compile with autotools:
 
 Protobuf:
 * 1. install on host:
-* ./configure
-* make -j8
-* sudo make install
+```
+./configure
+make -j8
+sudo make install
+```
 * 2. cross-compile for Xeon Phi:
-* ./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc
+```
+./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc
+```
 ----
 
 Glog:
