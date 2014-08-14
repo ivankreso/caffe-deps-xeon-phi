@@ -7,14 +7,14 @@ General cross-compile with autotools:
 ```
 
 ##### Protobuf:
-1. Install on host first because we need the host binary to compile Caffe:
+- Install on host first because we need the host binary to compile Caffe:
 ```
 ./configure
 make -j8
 sudo make install
 ```
 
-2. Cross-compile for Xeon Phi:
+- Cross-compile for Xeon Phi:
 ```
 ./configure --enable-shared --prefix=/mnt/ssd/kivan/xeon_phi/protobuf-2.5.0/build/ --host=x86_64-unknown-linux-gnu "--with-protoc=${PROTOC}" CXXFLAGS=-mmic LDFLAGS=-mmic CC=icc CXX=icpc
 ```
