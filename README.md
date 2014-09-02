@@ -34,3 +34,14 @@ sudo make install
 cmake -DWITH_CUDA=OFF -DWITH_OPENCL=OFF -DWITH_GTK=OFF -DWITH_1394=OFF -DWITH_TBB=ON -WITH_OPENMP=ON -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/mnt/ssd/kivan/xeon_phi/libs/opencv/ -DCMAKE_TOOLCHAIN_FILE=../native_xeon_phi.cmake -DCMAKE_C_COMPILER=icc -DCMAKE_CXX_COMPILER=icpc -DCMAKE_C_FLAGS=-mmic -DCMAKE_CXX_FLAGS=-mmic ../
 ```
 
+##### Gflags:
+```
+cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX=/mnt/ssd/kivan/xeon_phi/caffe/caffe-dependencies/libs/gflags/ -DCMAKE_TOOLCHAIN_FILE=../../../native_xeon_phi.cmake -DCMAKE_C_COMPILER=icc -DCMAKE_CXX_COMPILER=icpc -DCMAKE_C_FLAGS=-mmic -DCMAKE_CXX_FLAGS=-mmic -C TryRunResults.cmake ../
+```
+
+
+##### MDB:
+Using modified Makefile:
+```
+make
+```
